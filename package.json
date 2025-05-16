@@ -3,21 +3,31 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@radix-ui/react-collapsible": "^1.1.10",
+    "@radix-ui/react-dialog": "^1.1.13",
+    "@radix-ui/react-separator": "^1.1.6",
+    "@radix-ui/react-slot": "^1.2.2",
+    "@radix-ui/react-tooltip": "^1.2.6",
     "@tailwindcss/forms": "^0.5.10",
     "autoprefixer": "10.4.20",
     "bcryptjs": "^3.0.2",
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "next": "latest",
-    "next-auth": "5.0.0-beta.25",
+    "lucide-react": "^0.510.0",
+    "next": "15.4.0-canary.24",
+    "next-auth": "5.0.0-beta.28",
     "postcss": "8.5.1",
     "postgres": "^3.4.5",
     "react": "latest",
     "react-dom": "latest",
+    "tailwind-merge": "^3.3.0",
     "tailwindcss": "3.4.17",
+    "tailwindcss-animate": "^1.0.7",
     "typescript": "5.7.3",
     "use-debounce": "^10.0.4",
     "zod": "^3.24.1"
@@ -26,6 +36,8 @@
     "@types/bcrypt": "^5.0.2",
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
-    "@types/react-dom": "19.0.3"
+    "@types/react-dom": "19.0.3",
+    "eslint": "^9.26.0",
+    "eslint-config-next": "15.3.2"
   }
 }
